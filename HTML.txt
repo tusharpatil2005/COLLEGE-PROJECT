@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <a id="logo" href="https://www.amazon.in">amazon.in</a>
+        <a id="one">account</a>
+        <a id="two" href="https://www.amazon.in/gp/cart/view.html?ref_=nav_cart">My cart</a>
+        <a id="three" href="https://www.amazon.in/b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3">Sells</a>
+        <input placeholder="Serch amazon.in">
+        <button>Serch</button>
+    </div>
+    <div id="content">
+    <div id="con" style="background-color: red;">box 1</div>
+    <div id="con" style="background-color:green;">box 2</div>
+    <div id="con" style="background-color: violet;">box 3</div>
+    </div>
+    <footer>THANK YOU FOR VISIT</footer>
+</body>
+</html>

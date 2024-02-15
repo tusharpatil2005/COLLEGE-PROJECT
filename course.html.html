@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?
+    family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <title>RCPIT</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="course.html.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+
+    </section>
+    <section class="course">
+        <h1>Courses We offer</h1>
+        <p>RCPIT presently imparts Engineering education in disciplines which are oriented to modern industrial needs, each of the course modules encompasses a host of subjects pertinent to the respective fields.</p>
+        
+    </section>
+    <section class=" intake">
+        <img src="intake.png" alt=""> 
+    </section>
+<br>
+    <section class="cut-off">
+        <h2>RCPIT, MHT-CET Cutoff 2023</h2>
+        <br>
+        <img src="cut.png" alt="">
+
+    </section>
+    <section class="cut-off">
+        <h2>RCPIT, JEE-Main Cutoff 2023</h2>
+        <br>
+        <img src="cut2.png" alt="">
+
+    </section>
+
+    
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="4.jpeg" alt="">
+                <h3>Library</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="5.jpeg" alt="">
+                <h3>Ground</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="6.jpeg" alt="">
+                <h3>Canteen</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+    
+    </section>
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab doloremque obcaecati, veritatis sint aliquam cupiditate praesentium ut quisquam odio ipsum deleniti facere earum perferendis nemo! <br> Adipisci ex dolores voluptatibus laudantium?</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> Easy Tutorials </p>
+</section>
+
+</body>
+</html>

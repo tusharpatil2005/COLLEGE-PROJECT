@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?
+    family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <title>RCPIT</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="course.html.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+
+    </section>
+
+
+    <section class="course">
+    
+        <div class="row">
+            <div class="cource-col">
+            <h3>OUR OFFICE LOCATION</h3>
+            <p id="info">Near Nimzari Naka, Shahada Road, Shirpur Dist. Dhule (M.S.) Maharashtra, India - 425405</p>
+            </div>
+    
+            
+            <div class="cource-col">
+                <h3>OUR CONTACT NUMBER</h3>
+                <p id="info">(02563) 259600, 801, 802.</p>
+                </div>
+    
+                
+                <div class="cource-col">
+                    <h3>OUR CONTACT E-MAIL</h3>
+                    <p id="info">director@rcpit.ac.in</p>
+                    </div>    
+        </div>
+    
+    </section>
+
+
+    <section class="contact-us">
+        <div class="contact-col">
+            <h2>Keep In Touch</h2>
+        </div>
+        <div class="contact-col">
+            <form action="">
+                <input type="text" placeholder="Enter your name" required>
+                <input type="Email" placeholder="Enter your Email" required>
+                <input type="text" placeholder="Enter your subject" required>
+                <textarea rows="8" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+         </div>
+
+    </section>
+
+
+    
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab doloremque obcaecati, veritatis sint aliquam cupiditate praesentium ut quisquam odio ipsum deleniti facere earum perferendis nemo! <br> Adipisci ex dolores voluptatibus laudantium?</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> Easy Tutorials </p>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+* {
+    color: white;
+}
+div {
+    height: 60px;
+    background-color: #0f1111;
+}
+button {
+    background-color: #f08804;
+}
+#logo {
+    color: #f08804;
+    font-size: 25px;
+    text-decoration: none;
+}
+a {
+    padding-right: 200px;
+}
+#two{
+    text-decoration: none;
+}
+#three{
+    text-decoration: none;
+}
+#con {
+    width: 100px;
+    height: 100px;
+    background-color: #f08804;
+    display: inline-block;
+    padding: 50px;
+    margin: 50px;
+    border: 10px double black;
+}
+footer {
+background-color: #0f1111;
+text-align: center;
+}
+#content {
+    height: 500px;
+    background-color: white;
+}
